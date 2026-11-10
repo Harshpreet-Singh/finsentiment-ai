@@ -1,0 +1,32 @@
+pre-requisites.txt
+
+# Python virtual environment
+venv/
+backend/venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Model checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Data
+data/raw/
+data/processed/
+
+# Next.js
+node_modules/
+.next/
+out/
+
+# VS Code
+.vscode/
